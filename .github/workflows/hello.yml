@@ -12,3 +12,6 @@ jobs:
         echo "hello $NAME"
       env:
         NAME: Alan
+    - name: hello-world
+      run: |
+        echo "hello $GITHUB_ACTOR"
